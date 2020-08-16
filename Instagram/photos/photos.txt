@@ -1,0 +1,31 @@
+20_10_19 Sampdoria - Roma, Udinese - Torino, FC Cologne - Paderborn.jpg
+19_10_19 Aston Villa - Brighton, Atletico Madrid - Valencia, Bournemouth - Norwich.jpg
+25_10_19 Nantes - Monaco, Verona - Sassuolo, Southampton - Leicester.jpg
+20_10_19 Hoffenheim - Schalke 04, Parma Calcio 1913 - Genoa, Athletic Club - Real Valladolid.jpg
+19_10_19 Lazio - Atalanta, Augsburg - Bayern Munich, Fortuna Duesseldorf - Mainz 05.jpg
+25_10_19 Brescia - Fiorentina, Sheffield United - Arsenal, Mainz 05 - FC Cologne.jpg
+20_10_19 Real Sociedad - Real Betis, Bordeaux - Saint-Etienne, Cagliari - SPAL 2013.jpg
+19_10_19 RasenBallsport Leipzig - Wolfsburg, Union Berlin - Freiburg, Werder Bremen - Hertha Berlin.jpg
+19_10_19 Angers - Brest, Metz - Nantes, Nimes - Amiens.jpg
+19_10_19 Chelsea - Newcastle United, Leicester - Burnley, Tottenham - Watford.jpg
+20_10_19 AC Milan - Lecce, Marseille - Strasbourg, Sevilla - Levante.jpg
+20_10_19 Espanyol - Villarreal, Monaco - Rennes, Manchester United - Liverpool.jpg
+19_10_19 Reims - Montpellier, Toulouse - Lille, Juventus - Bologna.jpg
+19_10_19 Wolverhampton Wanderers - Southampton, Lyon - Dijon, Napoli - Verona.jpg
+19_10_19 Borussia Dortmund - Borussia M.Gladbach, Crystal Palace - Manchester City, Getafe - Leganes.jpg
+09_11_19 Burnley - West Ham, Newcastle United - Bournemouth, Southampton - Everton.jpg
+10_11_19 Manchester United - Brighton, Rennes - Amiens, Sampdoria - Atalanta.jpg
+09_11_19 Leicester - Arsenal, Lille - Metz, Monaco - Dijon.jpg
+08_11_19 FC Cologne - Hoffenheim, Nice - Bordeaux, Sassuolo - Bologna.jpg
+09_11_19 Norwich - Watford, Real Sociedad - Leganes, Alaves - Real Valladolid.jpg
+09_11_19 Tottenham - Sheffield United, Valencia - Granada, Brest - Paris Saint Germain.jpg
+10_11_19 Atletico Madrid - Espanyol, Montpellier - Toulouse, Nantes - Saint-Etienne.jpg
+09_11_19 Reims - Angers, Strasbourg - Nimes, Napoli - Genoa.jpg
+10_11_19 Liverpool - Manchester City, Freiburg - Eintracht Frankfurt, Parma Calcio 1913 - Roma.jpg
+09_11_19 Chelsea - Crystal Palace, Brescia - Torino, Hertha Berlin - RasenBallsport Leipzig.jpg
+10_11_19 Barcelona - Celta Vigo, Mallorca - Villarreal, Cagliari - Fiorentina.jpg
+10_11_19 Udinese - SPAL 2013, Wolverhampton Wanderers - Aston Villa, Wolfsburg - Bayer Leverkusen.jpg
+10_11_19 Getafe - Osasuna, Juventus - AC Milan, Marseille - Lyon.jpg
+09_11_19 Mainz 05 - Union Berlin, Paderborn - Augsburg, Schalke 04 - Fortuna Duesseldorf.jpg
+10_11_19 Borussia M.Gladbach - Werder Bremen, Athletic Club - Levante, Lazio - Lecce.jpg
+09_11_19 Inter - Verona, Bayern Munich - Borussia Dortmund, Eibar - Real Madrid.jpg
