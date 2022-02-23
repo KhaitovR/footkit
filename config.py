@@ -4,9 +4,9 @@ import numpy as np
 class Config:
 
     def __init__(self):
-        self.seasons = [2016,2017,2018,2019,2020] # ,2020
+        self.seasons = [2016,2017,2018,2019,2020, 2021, 2022] # ,2020
         self.leagues = ["epl", "la_liga", "bundesliga", "serie_a", "ligue_1", "rfpl"]
-        self.fixtures_seasons = [2020]
+        self.fixtures_seasons = [2022]
         self.params_confidence_interval={'odds':1.3, 'probability':0.6, 'cutoff':False}
         self.info_features = ['DateTime', 'LeagueName', 'RoundEvent', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG']
         self.info_test_features = ['DateTime', 'LeagueName', 'RoundEvent', 'HomeTeam', 'AwayTeam']
@@ -92,8 +92,8 @@ class Config:
         self.path_fonts = './Pictures/fonts/'
         self.path_pictures_pred='./Pictures/prediction_pics/'
 
-        self.instagram_username='LogInstagram'
-        self.instagram_password = 'passInst'
+        self.instagram_username='footballbets.tv'
+        self.instagram_password = '****************'
 
     def set_to_list(self, cols, excepted):
         return list(set(cols) - set(excepted))

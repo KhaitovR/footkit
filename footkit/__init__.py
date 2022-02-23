@@ -4,6 +4,7 @@ from .models import Validation
 from .Odds import OddsParser
 from .Calculation import Calculation
 from .ImageDraw import PlotPredict
-from .Insta import InstaBot
+# from .Insta import InstaBot
 from .FeatureSelector import FeatureSelector
-__all__ = [Parser, Preprocess, Validation, OddsParser, Calculation, PlotPredict, InstaBot, FeatureSelector]
+# InstaBot, 
+__all__ = [Parser, Preprocess, Validation, OddsParser, Calculation, PlotPredict, FeatureSelector]

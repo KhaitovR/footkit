@@ -129,7 +129,7 @@ class OddsParser(Config):
         import os
         list_of_files = glob.glob(r'./Parser/data/*.xlsx')
         latest_file = max(list_of_files, key=os.path.getctime)
-        print(latest_file)
+        # print(latest_file)
         df_odds = pd.read_excel(latest_file)
         df_odds['Date'] = pd.to_datetime(df_odds['DateTime']).dt.date
 
@@ -246,9 +246,8 @@ class OddsParser(Config):
             season = str(soup.find_all("ul", {"class" : "main-filter"})[1].find_all("span", {"class" : "active"})[0].find_all('a')[0].get_text())
         except:
             season = 'fixtures'
-            print('get_number_season_from_site - не удалось получить название сезона')
+            # print('get_number_season_from_site - не удалось получить название сезона')
         return season
-
 
     def get_seasons_url_in_league(self, url, count_season = 3):
         # Это нужно, если парсим лиги и считываем пару последних сезонов
@@ -266,7 +265,7 @@ class OddsParser(Config):
                 url_list.append('https://www.oddsportal.com'+a['href'])
                 # print(url_list)
         except Exception:
-            print('get_seasons_url_in_league - не удалось собрать ссылки сезонов в лиге')
+            # print('get_seasons_url_in_league - не удалось собрать ссылки сезонов в лиге')
             url_list = [url]
 
         return url_list
@@ -308,7 +307,6 @@ class OddsParser(Config):
                     urls_events.append(u.split('inplay-odds/')[0])
 
         return urls_events
-
 
     def get_header_event(self, link):
 
@@ -409,7 +407,8 @@ class OddsParser(Config):
                     try:
                         self.browser.find_element_by_xpath(tabs_xpath[tab]).click()
                     except:
-                        print('Error, dont click on xpath tab')
+                        pass
+                        # print('Error, dont click on xpath tab')
 
             soup = self.find_element_to_BS('odds-data-table')
             containers = soup.find_all('div', class_ = "table-container")
@@ -541,7 +540,7 @@ class OddsParser(Config):
                     url = u,
                     last_update_ = self.last_update
             )
-        print('In', len(self.EVENT_PAGE), 'league search', len(self.URLS_EVENTS), 'events')
+        # print('In', len(self.EVENT_PAGE), 'league search', len(self.URLS_EVENTS), 'events')
         # return URLS_EVENTS
 
 
@@ -552,10 +551,10 @@ class OddsParser(Config):
         columns = ["Div", "Season", "match_date","home_team","away_team", "home_point", "away_point", "bookmaker","bet_tab","bet_type", "bet_set","bet_value"],
         save_to_file=True
     ):
-        
+
         df_parser = pd.DataFrame(columns=columns)
 
-        for url in tqdm(self.URLS_EVENTS): # [:2]
+        for url in self.URLS_EVENTS: # [:2]
             df_parser = self.get_info_from_tab(df_parser, url, season)
 
         # combined measures for concat understat
